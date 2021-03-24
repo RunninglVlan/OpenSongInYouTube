@@ -5,7 +5,7 @@
 
   "description": "Adds button to YouTube Music player for opening normal YouTube, e.g., to be able to remove video from playlist",
   "icons": {
-    "48": "icon48.png"
+    "48": "img/icon48.png"
   },
 
   "content_scripts": [{
