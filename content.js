@@ -13,13 +13,15 @@ const onLoad = (selector, callback) => {
 };
 
 onLoad('ytmusic-player-bar ytmusic-menu-renderer', element => {
-  const button = $('<paper-icon-button>')
+  // the same as button on the left
+  const button = $('<tp-yt-paper-icon-button>')
     .attr('id', 'button')
-    .attr('class', 'ytmusic-menu-renderer removeButton')
+    .attr('class', 'ytmusic-menu-renderer')
     .attr('title', 'Open in YouTube')
     .on('click', gotoYouTube);
   element.append(button);
-  button.find('iron-icon').html(YOUTUBE);
+  // icon inside button with SVG
+  button.find('tp-yt-iron-icon').html(YOUTUBE);
 });
 
 const gotoYouTube = () => {
