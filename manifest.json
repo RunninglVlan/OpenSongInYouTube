@@ -3,7 +3,7 @@
   "version": "0.1",
   "manifest_version": 2,
 
-  "description": "Adds button to YouTube Music player for opening normal YouTube, e.g., to be able to remove video from playlist",
+  "description": "Adds a button to YouTube Music player for opening normal YouTube to be able to remove video from playlist, add a like or leave a comment",
   "icons": {
     "48": "img/icon48.png"
   },
