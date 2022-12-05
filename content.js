@@ -18,6 +18,7 @@ onLoad('ytmusic-player-bar ytmusic-menu-renderer', element => {
     .attr('id', 'button')
     .attr('class', 'ytmusic-menu-renderer')
     .attr('title', 'Open in YouTube')
+    .attr('style', 'color: white')
     .on('click', gotoYouTube);
   element.append(button);
   // icon inside button with SVG
@@ -26,5 +27,5 @@ onLoad('ytmusic-player-bar ytmusic-menu-renderer', element => {
 
 const gotoYouTube = () => {
   const url = window.location.href.replace('music', 'www');
-  window.open(url, '_blank', 'width=1280,height=650');
+  window.open(url, '_blank', 'width=1280,height=700');
 };
