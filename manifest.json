@@ -1,7 +1,7 @@
 {
   "name": "Open Song In YouTube",
   "version": "0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "description": "Adds a button to YouTube Music player for opening normal YouTube to be able to remove video from playlist, add a like or leave a comment",
   "icons": {
